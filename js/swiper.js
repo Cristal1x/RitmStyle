@@ -1,6 +1,5 @@
 const swiper = new Swiper('.swiper', {
   direction: 'horizontal',
-  slidesPerView: 3,
   spaceBetween: 0,
   loop: true,
   centeredSlides: true,
@@ -13,5 +12,19 @@ const swiper = new Swiper('.swiper', {
   scrollbar: {
     el: '.swiper-scrollbar',
   },
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+      
+    },
+    1000: {
+      slidesPerView: 2,
+      
+    },
+    1920: {
+      slidesPerView: 3,
+      
+    },
+  }
 
 });
