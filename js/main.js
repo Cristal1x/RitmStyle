@@ -10,14 +10,14 @@ burger.addEventListener('click', function() {
     header.classList.remove('column');
     nav.classList.add('hide');
     nav.classList.remove('show');
-    burger.style.backgroundImage = "url('../img/hamburger.svg')";
+    burger.style.backgroundImage = "url('../img/hamburger.png')";
     logo.classList.remove('hide');
     button.classList.remove('hide');
   } else {
     nav.classList.add('show');
     nav.classList.remove('hide');
     header.classList.add('column');
-    burger.style.backgroundImage = "url('../img/close.svg')";
+    burger.style.backgroundImage = "url('../img/close.png')";
     logo.classList.add('hide');
     button.classList.add('hide');
   }
