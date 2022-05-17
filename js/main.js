@@ -10,14 +10,14 @@ burger.addEventListener('click', function() {
     header.classList.remove('column');
     nav.classList.add('hide');
     nav.classList.remove('show');
-    image.src = "../img/hamburger.png";
+    image.src = "img/hamburger.svg";
     logo.classList.remove('hide');
     button.classList.remove('hide');
   } else {
     nav.classList.add('show');
     nav.classList.remove('hide');
     header.classList.add('column');
-    image.src = "../img/close.png";
+    image.src = "img/close.svg";
     logo.classList.add('hide');
     button.classList.add('hide');
   }
