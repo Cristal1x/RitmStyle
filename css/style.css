@@ -602,13 +602,12 @@ body {
     font-size: 36px;
   }
   .header__burger {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 30px;
     height: 30px;
-    background-image: url('../img/hamburger.png');
-    background-size: 25px 25px;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
+    object-fit: contain;
     cursor: pointer;
   }
   .hide {
